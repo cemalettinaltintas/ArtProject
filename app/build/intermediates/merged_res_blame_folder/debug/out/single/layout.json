@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.cemalettinaltintas.deneme.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.cemalettinaltintas.deneme.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.cemalettinaltintas.deneme.app-mergeDebugResources-4:/layout/activity_urun.xml",
+        "source": "com.cemalettinaltintas.deneme.app-main-7:/layout/activity_urun.xml"
+    }
+]

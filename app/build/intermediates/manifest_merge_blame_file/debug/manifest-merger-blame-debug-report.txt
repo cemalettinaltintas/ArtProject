@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cemalettinaltintas.deneme"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:5:5-96
+11-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+12-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:6:5-92
+12-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:6:22-73
+13
+14    <permission
+14-->[androidx.core:core:1.9.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.cemalettinaltintas.deneme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.9.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.9.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.cemalettinaltintas.deneme.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.9.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.9.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:7:5-29:19
+21        android:allowBackup="true"
+21-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\6572e896cf691f4b13ad10c561cb3105\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Deneme" >
+32-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:15:9-44
+33        <activity
+33-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:17:9-19:40
+34            android:name="com.cemalettinaltintas.deneme.UrunActivity"
+34-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:18:13-41
+35            android:exported="false" />
+35-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:19:13-37
+36        <activity
+36-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:20:9-28:20
+37            android:name="com.cemalettinaltintas.deneme.MainActivity"
+37-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:21:13-41
+38            android:exported="true" >
+38-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:22:13-36
+39            <intent-filter>
+39-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:23:13-27:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:24:17-69
+40-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:26:17-77
+42-->C:\AndroidApps\Deneme2\app\src\main\AndroidManifest.xml:26:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <provider
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+47            android:name="androidx.startup.InitializationProvider"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+48            android:authorities="com.cemalettinaltintas.deneme.androidx-startup"
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+49            android:exported="false" >
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+50            <meta-data
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+51                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+52                android:value="androidx.startup" />
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Cemalettin\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+53            <meta-data
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cemalettin\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+54                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cemalettin\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+55                android:value="androidx.startup" />
+55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Cemalettin\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+56        </provider>
+57    </application>
+58
+59</manifest>
